@@ -223,9 +223,70 @@ h1, h2, h3 {
     font-size: 16px;
     color: #6B7280;
     line-height: 1.5;
+    padding-bottom: 10px;
 }
 .problem-container {
-      max-width:1200px;
+      max-width:1600px;
+    margin: 0 auto;
+    padding: 0 24px;
+    width: 100%;
+}
+.solution-section {
+    padding: 100px 0;
+    background-color: white; 
+}
+
+.solution-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    align-items: center;
+}
+
+.solution-image img {
+    width: 100%;
+    height: auto;
+}
+
+.eyebrow {
+    font-size: 30px;
+    font-weight: 600;
+    color: #4CAF50;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.solution-content h2 {
+    font-size: 62px;
+    color: #0A192F;
+    margin-bottom: 24px;
+}
+
+.solution-content p {
+    color: #6B7280;
+    margin-bottom: 32px;
+}
+
+.feature-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    color:#0A192F;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.feature-list li img {
+    width: 20px;
+    height: 20px;
+}
+
+.solution-container{
+
+       max-width:1600px;
     margin: 0 auto;
     padding: 0 24px;
     width: 100%;
